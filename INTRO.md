@@ -25,3 +25,11 @@ The last row shows that the full GPT-3 has 175 billion parameters, arranged in 9
 The parameter count doesn't depend on the context window size (which, for GPT-3, is 2048), or the number of attention heads, or the vocabulary size (which, for GPT-3, is 50,257).  Instead, it just depends on the number of layers and the model dimension (the embedding size of each token).  However, a larger context window will generally require the model to be bigger.
 
 According to [this](https://github.com/amirgholami/ai_and_memory_wall#nlp-models), GPT-3 needs 740 teraflops to infer a single token, due to each parameter being used many times (which, in turn, allows the model to do more computation than the raw parameter count would imply).  Later versions of GPT-3 had lower inference costs (?).
+
+In the paper, they say:
+
+>  for most tasks we find relatively smooth scaling with model capacity
+
+and then, intriguingly:
+
+> the gap between zero-, one-, and few-shot performance often grows with model capacity, perhaps suggesting that larger models are more proficient meta-learners
