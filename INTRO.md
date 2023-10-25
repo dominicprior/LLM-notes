@@ -49,3 +49,17 @@ In the paper, they say:
 and then, intriguingly:
 
 > the gap between zero-, one-, and few-shot performance often grows with model capacity, perhaps suggesting that larger models are more proficient meta-learners
+
+# Interpreting GPT
+
+[interpreting GPT: the logit lens](https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens)
+
+
+
+# Links
+
+The GPT paper? [Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
+
+The GPT-2 paper? [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)
+
+[On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258)
