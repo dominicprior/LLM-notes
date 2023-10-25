@@ -14,6 +14,12 @@ As [Dan Piponi](https://mathstodon.xyz/@dpiponi/111116694861297725) noted:
 
 The biggest weakness is their complete inability to tell if they are [telling the truth](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)).
 
+[Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) highlights another major gap:
+
+> But try to give it rules for an actual “deep” computation that involves many potentially computationally irreducible steps and it just won’t work. (Remember that at each step it’s always just “feeding data forward” in its network, never looping except by virtue of generating new tokens.)
+
+> Of course, the network can learn the answer to specific “irreducible” computations. But as soon as there are combinatorial numbers of possibilities, no such “table-lookup-style” approach will work.
+
 # Scale
 
 The [GPT-3](https://arxiv.org/abs/2005.14165) paper has this:
