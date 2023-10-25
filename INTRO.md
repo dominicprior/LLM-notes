@@ -54,7 +54,7 @@ and then, intriguingly:
 
 [interpreting GPT: the logit lens](https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens)
 
-
+![A thumbnail of some logits in successive GPT layers](the-logit-lens.png)
 
 # Links
 
