@@ -3,8 +3,7 @@
 From writing poetry to giving medical advice, [large language models](https://en.wikipedia.org/wiki/Large_language_model) are shockingly general,
 giving us a first hint of the G in [artificial general intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence).
 They are also [surprisingly simple](https://dugas.ch/artificial_curiosity/GPT_architecture.html),
-and yet, due to their immense size and monolithic nature, are deeply inscrutable,
-despite [some](https://arxiv.org/abs/2211.00593) [heroic](https://arxiv.org/abs/2012.14913) [efforts](https://arxiv.org/abs/2305.16130).
+and yet, due to their immense size and monolithic nature, are deeply inscrutable.
 
 # Timeline
 
@@ -71,6 +70,12 @@ and then, intriguingly:
 
 [A jargon-free explanation of how AI large language models work](https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/)
 ![A layer where words are getting annotated](transformer_layer.png)
+
+[Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small](https://arxiv.org/abs/2211.00593)
+
+[Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913)
+
+[A Mechanism for Solving Relational Tasks in Transformer Language Models](https://arxiv.org/abs/2305.16130)
 
 [A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html) - Anthropic
 
