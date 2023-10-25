@@ -69,7 +69,7 @@ and then, intriguingly:
 ![A thumbnail of some logits in successive GPT layers](the_logit_lens.png)
 
 [A jargon-free explanation of how AI large language models work](https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/)
-![A layer where words are getting annotated](transformer_layer.png)
+![A layer where words are getting annotated](transformer_layer.png) - including the brilliant squirrels analogy for how NNs are trained
 
 [Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small](https://arxiv.org/abs/2211.00593)
 ![a circuit in GPT-2 small that implements IOI](mary_and_john.png)
