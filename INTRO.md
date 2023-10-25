@@ -1,6 +1,10 @@
 # Intro
 
-From writing poetry to giving medical advice, [large language models](https://en.wikipedia.org/wiki/Large_language_model) are shockingly general, giving us a first hint of the G in [artificial general intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence).  They are also [surprisingly simple](https://dugas.ch/artificial_curiosity/GPT_architecture.html), and yet, due to their immense size and monolithic nature, are deeply inscrutable, despite [some](https://arxiv.org/abs/2211.00593) [heroic](https://arxiv.org/abs/2012.14913) [efforts](https://arxiv.org/abs/2305.16130).
+From writing poetry to giving medical advice, [large language models](https://en.wikipedia.org/wiki/Large_language_model) are shockingly general,
+giving us a first hint of the G in [artificial general intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence).
+They are also [surprisingly simple](https://dugas.ch/artificial_curiosity/GPT_architecture.html),
+and yet, due to their immense size and monolithic nature, are deeply inscrutable,
+despite [some](https://arxiv.org/abs/2211.00593) [heroic](https://arxiv.org/abs/2012.14913) [efforts](https://arxiv.org/abs/2305.16130).
 
 # Timeline
 
@@ -26,9 +30,12 @@ Here are some weaknesses:
 
 [Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) highlights another major gap:
 
-> But try to give it rules for an actual “deep” computation that involves many potentially computationally irreducible steps and it just won’t work. (Remember that at each step it’s always just “feeding data forward” in its network, never looping except by virtue of generating new tokens.)
+> But try to give it rules for an actual “deep” computation that involves many potentially computationally irreducible steps
+> and it just won’t work. (Remember that at each step it’s always just “feeding data forward” in its network,
+> never looping except by virtue of generating new tokens.)
 
-> Of course, the network can learn the answer to specific “irreducible” computations. But as soon as there are combinatorial numbers of possibilities, no such “table-lookup-style” approach will work.
+> Of course, the network can learn the answer to specific “irreducible” computations.
+> But as soon as there are combinatorial numbers of possibilities, no such “table-lookup-style” approach will work.
 
 # Scale
 
@@ -36,11 +43,17 @@ The [GPT-3](https://arxiv.org/abs/2005.14165) paper has this:
 
 ![Screenshot of a table of model sizes.](model_sizes.png)
 
-The last row shows that the full GPT-3 has 175 billion parameters, arranged in 96 blocks where each block has an attention layer with 4 * 12288 * 12288 parameters and a couple of feed forward layers for a further 8 * 12288 * 12288 parameters.
+The last row shows that the full GPT-3 has 175 billion parameters, arranged in 96 blocks
+where each block has an attention layer with 4 * 12288 * 12288 parameters
+and a couple of feed forward layers for a further 8 * 12288 * 12288 parameters.
 
-The parameter count doesn't depend on the context window size (which, for GPT-3, is 2048), or the number of attention heads, or the vocabulary size (which, for GPT-3, is 50,257).  Instead, it just depends on the number of layers and the model dimension (the embedding size of each token).
+The parameter count doesn't depend on the context window size (which, for GPT-3, is 2048),
+or the number of attention heads, or the vocabulary size (which, for GPT-3, is 50,257).
+Instead, it just depends on the number of layers and the model dimension (the embedding size of each token).
 
-According to [this](https://github.com/amirgholami/ai_and_memory_wall#nlp-models), GPT-3 needs 740 teraflops to infer a single token, due to each parameter being used many times (which, in turn, allows the model to do more computation than the raw parameter count would imply).  Later versions of GPT-3 had lower inference costs (?).
+According to [this](https://github.com/amirgholami/ai_and_memory_wall#nlp-models), GPT-3 needs 740 teraflops to infer a single token,
+due to each parameter being used many times (which, in turn, allows the model to do more computation than the raw parameter count would imply).
+Later versions of GPT-3 had lower inference costs (?).
 
 In the paper, they say:
 
@@ -48,7 +61,8 @@ In the paper, they say:
 
 and then, intriguingly:
 
-> the gap between zero-, one-, and few-shot performance often grows with model capacity, perhaps suggesting that larger models are more proficient meta-learners
+> the gap between zero-, one-, and few-shot performance often grows with model capacity,
+> perhaps suggesting that larger models are more proficient meta-learners
 
 # Interpreting GPT
 
