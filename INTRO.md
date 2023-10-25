@@ -16,6 +16,10 @@ The biggest weakness is their complete inability to tell if they are [telling th
 
 # Scale
 
-The GPT-3 paper has this:
+The [GPT-3](https://arxiv.org/abs/2005.14165) paper has this:
 
 ![Screenshot of a table of model sizes.](model_sizes.png)
+
+The last row shows that the full GPT-3 has 175 billion parameters, arranged in 96 blocks where each block has an attention layer with 4 * 12288 * 12288 parameters and a couple of feed forward layers for a further 8 * 12288 * 12288 parameters.
+
+Note how the parameter count doesn't depend on the context window size (which, for GPT-3, is 2048) or the number of attention heads.
