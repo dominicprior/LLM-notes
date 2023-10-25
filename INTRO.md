@@ -23,7 +23,7 @@ Here are some weaknesses:
 
 + The huge amount of training data.  The biggest models consume, maybe, a trillion words, unlike a ten-year-old child, who sees or hears about a hundred million words.  Sam Altman says that [as models get smarter they might need less data](https://youtu.be/byYlC2cagLw?t=784).
 
-+ The fact that it only matches a small part of the human brain.  We often equate language and intelligence, and therefore we might read more into LLMs than is really there.
++ They only match a small part of the human brain.  We often equate language and intelligence, and therefore LLMs might not be as smart as they seem.
 
 ![Picture of Broca's and Wernicke's part of the brain](broca.png)
 
