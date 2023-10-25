@@ -1,6 +1,6 @@
 # Intro
 
-From writing poetry to giving medicine advice, [large language models](https://en.wikipedia.org/wiki/Large_language_model) are shockingly general, giving us a first hint of the G in [artificial general intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence).  They are also [surprisingly simple](https://dugas.ch/artificial_curiosity/GPT_architecture.html), and yet, due to their [immense size](https://github.com/amirgholami/ai_and_memory_wall#nlp-models), are deeply inscrutable, despite [some](https://arxiv.org/abs/2211.00593) [heroic](https://arxiv.org/abs/2012.14913) [efforts](https://arxiv.org/abs/2305.16130).
+From writing poetry to giving medical advice, [large language models](https://en.wikipedia.org/wiki/Large_language_model) are shockingly general, giving us a first hint of the G in [artificial general intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence).  They are also [surprisingly simple](https://dugas.ch/artificial_curiosity/GPT_architecture.html), and yet, due to their [immense size](https://github.com/amirgholami/ai_and_memory_wall#nlp-models), are deeply inscrutable, despite [some](https://arxiv.org/abs/2211.00593) [heroic](https://arxiv.org/abs/2012.14913) [efforts](https://arxiv.org/abs/2305.16130).
 
 # Timeline
 
