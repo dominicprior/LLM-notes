@@ -12,17 +12,21 @@ As [Dan Piponi](https://mathstodon.xyz/@dpiponi/111116694861297725) noted:
 
 > And yet I think more has been written about what ChatGPT can't do than has been written about what any other tool can't do. It's all very strange.
 
-Here are the weaknesses:
+Here are some weaknesses:
 
-+ The biggest one is their complete inability to tell if they are [telling the truth](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)).
++ The inability to tell if they are [telling the truth](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)).
 
-+ [Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) highlights another major gap:
++ Anything requiring precision (like we might expect from, say, a database).
+
++ The huge amount of training data.  The biggest models consume, maybe, a trillion words, unlike a ten-year-old child, who typically sees or hears 100 million words.  Sam Altman says that [as models get smarter they might need less data](https://youtu.be/byYlC2cagLw?t=784).
+
++ Maybe it only matches a small part of the human brain.
+
+[Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) highlights another major gap:
 
 > But try to give it rules for an actual “deep” computation that involves many potentially computationally irreducible steps and it just won’t work. (Remember that at each step it’s always just “feeding data forward” in its network, never looping except by virtue of generating new tokens.)
 
 > Of course, the network can learn the answer to specific “irreducible” computations. But as soon as there are combinatorial numbers of possibilities, no such “table-lookup-style” approach will work.
-
-+ Anything requiring the sort of precision we expect from databases.
 
 # Scale
 
