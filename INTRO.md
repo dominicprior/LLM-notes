@@ -1,1 +1,1 @@
-With abilities in anything from law and medicine, large language models are shockingly general, giving a first hint of the G in artificial general intelligence.
+With abilities in anything from law and medicine to poetry, large language models are shockingly general, giving a first hint of the G in artificial general intelligence.  They are also surprisingly simple, consisting mostly of matrix multiplications, and yet deeply inscrutable.
