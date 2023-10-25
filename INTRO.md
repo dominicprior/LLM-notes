@@ -10,7 +10,7 @@ From writing poetry to giving medical advice, [large language models](https://en
 
 As [Dan Piponi](https://mathstodon.xyz/@dpiponi/111116694861297725) noted:
 
-> And yet I think more has been written about what ChatGPT can't do than has been written about what any other tool can't do. It's all very strange.
+> more has been written about what ChatGPT can't do than has been written about what any other tool can't do. It's all very strange.
 
 Here are some weaknesses:
 
