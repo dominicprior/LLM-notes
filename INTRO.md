@@ -84,9 +84,14 @@ and then, intriguingly:
 
 # Training
 
-The GPT-3 paper shows this:
+From the GPT-3 paper, [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165):
 
+![GPT-3 datasets](training_data.png)
 
+> **Datasets used to train GPT-3**. “Weight in training mix” refers to the fraction of examples during training
+that are drawn from a given dataset, which we intentionally do not make proportional to the size of the dataset. As a
+result, when we train for 300 billion tokens, some datasets are seen up to 3.4 times during training while other datasets
+are seen less than once.
 
 # Optimization
 
