@@ -109,6 +109,15 @@ I hadn't realized how severe the GPU memory problems were. The solution seems to
 
 [Beyond Surface Statistics: Scene Representations in a Latent Diffusion Model](https://arxiv.org/abs/2306.05720)
 
+# Brains
+
+In "Thinking, Fast and Slow", it says unexpected words causes a distinctive pattern in brain activity to
+start within a fifth of a second.
+
+So, in other words, when we're listening, the brain is continuously running an LLM.
+
+I didn't think neurons were fast enough, and so I googled for things like "brain clock rate" (peak 200 Hz) and "synapse speed" (less than a millisecond), and so maybe there is indeed time for a few dozen neuron layers.
+
 # Training
 
 From the GPT-3 paper, [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165):
