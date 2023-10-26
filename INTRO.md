@@ -111,3 +111,12 @@ The GPT paper? [Improving Language Understanding by Generative Pre-Training](htt
 The GPT-2 paper? [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)
 
 [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258)
+
+# Random thoughts
+
+We can't help equating language ability and intelligence.  Therefore, the LLMs eloquence might be fooling us into thinking they are smart.
+
+# Inbox
+
+[The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
+
