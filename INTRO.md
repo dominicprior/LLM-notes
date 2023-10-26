@@ -11,7 +11,11 @@ As [Dan Piponi](https://mathstodon.xyz/@dpiponi/111116694861297725) noted:
 
 > more has been written about what ChatGPT can't do than has been written about what any other tool can't do. It's all very strange.
 
-Here are some weaknesses:
+and:
+
+> "The problem with citations about ChatGPT is that their authenticity can be difficult to discern" -- Plato
+
+Anyway, here are some weaknesses:
 
 + They don't know when they are [telling the truth](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)).  They never know when to shut up!
 
@@ -59,6 +63,9 @@ and then, intriguingly:
 > the gap between zero-, one-, and few-shot performance often grows with model capacity,
 > perhaps suggesting that larger models are more proficient meta-learners
 
+[Memory bandwidth constraints imply economies of scale in AI inference](https://www.lesswrong.com/posts/cB2Rtnp7DBTpDy3ii/memory-bandwidth-constraints-imply-economies-of-scale-in-ai) -
+I hadn't realized how severe the GPU memory problems were. The solution seems to be to favour things like matrix multiply where the computation is O(N^3) and the memory is O(N^2), possibly with tiling to make sure things fit in the cache.
+
 # Overviews
 
 [Why GPT-3 Matters](https://bmk.sh/2020/05/29/GPT-3-A-Brief-Summary/)
@@ -88,6 +95,20 @@ and then, intriguingly:
 
 [In-context Learning and Induction Heads](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html) - Anthropic
 
+[The Scaling Hypothesis](https://gwern.net/scaling-hypothesis)
+
+> GPT-3 has “learned how to learn”: in its endless training on so many gigabytes of text,
+> it encounters so many different kinds of text that it had no choice but to learn abstractions.
+
+> This family of phenomena is perhaps driven by neural networks functioning as ensembles
+> of many sub-networks.
+
+> It is sufficiently powerful a model that its sub-models can do anything from poetry to arithmetic,
+> and it is trained on so much data that those superficial models may do well early on,
+> but gradually fall behind more abstract models.
+
+[Beyond Surface Statistics: Scene Representations in a Latent Diffusion Model](https://arxiv.org/abs/2306.05720)
+
 # Training
 
 From the GPT-3 paper, [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165):
@@ -106,11 +127,25 @@ reduce the FF matrices to 1-bit precision, by using just +1 or -1 values.
 
 [Generating Long Sequences with Sparse Transformers](https://arxiv.org/abs/1904.10509) - sparse factorizations of the attention matrix which reduce the cost to O(n√n).
 
+# Tuning
+
+[Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning](https://arxiv.org/abs/2012.13255)
+
+[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
+
+# Hallucinations
+
+[Looking for an interpretability paper](https://www.reddit.com/r/mlscaling/comments/175xtbt/looking_for_an_interpretability_paper_that/)
+
+[Chain-of-Verification Reduces Hallucination in Large Language Models](https://arxiv.org/abs/2309.11495)
+
 # Wikipedia links
 
 [GPT-2](https://en.wikipedia.org/wiki/GPT-2), [GPT-3](https://en.wikipedia.org/wiki/GPT-3), 
 
 # Other Links
+
+[Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 
 The GPT-2 paper? [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)
 
@@ -119,6 +154,10 @@ The GPT-2 paper? [Language Models are Unsupervised Multitask Learners](https://d
 # Random thoughts
 
 We can't help equating language ability and intelligence.  Therefore, the LLMs' eloquence might be fooling us into thinking they are smart.
+
+LLMs don't contain control-flow things like "if" statements.
+
+An LLM is like a fuzzy hologram of the web.
 
 # Inbox
 
