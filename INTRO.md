@@ -5,10 +5,6 @@ giving us a first hint of the G in [artificial general intelligence](https://en.
 They are also [surprisingly simple](https://dugas.ch/artificial_curiosity/GPT_architecture.html),
 and yet deeply opaque, due to their immense size and monolithic nature.
 
-# Timeline
-
-[GPT-2](https://en.wikipedia.org/wiki/GPT-2), [GPT-3](https://en.wikipedia.org/wiki/GPT-3), 
-
 # Weaknesses
 
 As [Dan Piponi](https://mathstodon.xyz/@dpiponi/111116694861297725) noted:
@@ -81,6 +77,10 @@ and then, intriguingly:
 [A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html) - Anthropic
 
 [In-context Learning and Induction Heads](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html) - Anthropic
+
+# Wikipedia links
+
+[GPT-2](https://en.wikipedia.org/wiki/GPT-2), [GPT-3](https://en.wikipedia.org/wiki/GPT-3), 
 
 # Other Links
 
