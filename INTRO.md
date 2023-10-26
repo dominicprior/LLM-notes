@@ -34,7 +34,7 @@ Here are some weaknesses:
 
 # Scale
 
-The [GPT-3](https://arxiv.org/abs/2005.14165) paper has this:
+The GPT-3 paper, [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165), has this:
 
 ![Screenshot of a table of model sizes.](model_sizes.png)
 
@@ -59,9 +59,13 @@ and then, intriguingly:
 > the gap between zero-, one-, and few-shot performance often grows with model capacity,
 > perhaps suggesting that larger models are more proficient meta-learners
 
+# Overviews
+
+[Why GPT-3 Matters](https://bmk.sh/2020/05/29/GPT-3-A-Brief-Summary/)
+
 # Interpreting GPT
 
-[interpreting GPT: the logit lens](https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens) - Also see the "Mentioned in" section at the end.
+[Interpreting GPT: the logit lens](https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens) - Also see the "Mentioned in" section at the end.
 ![A thumbnail of some logits in successive GPT layers](the_logit_lens.png)
 
 [A jargon-free explanation of how AI large language models work](https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/)
@@ -77,6 +81,19 @@ and then, intriguingly:
 [A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html) - Anthropic
 
 [In-context Learning and Induction Heads](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html) - Anthropic
+
+# Training
+
+The GPT-3 paper shows this:
+
+
+
+# Optimization
+
+[BitNet: Scaling 1-bit Transformers for Large Language Models](https://arxiv.org/abs/2310.11453) -
+reduce the FF matrices to 1-bit precision, by using just +1 or -1 values.
+
+[Generating Long Sequences with Sparse Transformers](https://arxiv.org/abs/1904.10509) - sparse factorizations of the attention matrix which reduce the cost to O(n√n).
 
 # Wikipedia links
 
