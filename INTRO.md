@@ -17,13 +17,13 @@ As [Dan Piponi](https://mathstodon.xyz/@dpiponi/111116694861297725) noted:
 
 Here are some weaknesses:
 
-+ The inability to tell if they are [telling the truth](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)).  They never know when to shut up!
++ They don't know when they are [telling the truth](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)).  They never know when to shut up!
 
-+ Anything requiring precision (like we might expect from, say, a database).
++ They can't do anything requiring precision (like we might expect from, say, a database).
 
-+ The huge amount of training data.  The biggest models consume, maybe, a trillion words, unlike a ten-year-old child, who sees or hears about a hundred million words.  Sam Altman says that [as models get smarter they might need less data](https://youtu.be/byYlC2cagLw?t=784).
++ They need a huge amount of training data.  The biggest models consume, maybe, a trillion words, unlike a ten-year-old child, who sees or hears about a hundred million words.
 
-+ They only match a small part of the human brain.  We often equate language and intelligence, and therefore LLMs might not be as smart as they seem.
++ They only correspond to a small part of the human brain, and so they may not be as smart as they look.
 
 ![Picture of Broca's and Wernicke's part of the brain](broca.png)
 
