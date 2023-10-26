@@ -63,6 +63,12 @@ and then, intriguingly:
 
 [Why GPT-3 Matters](https://bmk.sh/2020/05/29/GPT-3-A-Brief-Summary/)
 
+[The Difficulties of Text Generation using Autoregressive Language Models: A Brief Overview](https://bmk.sh/2019/10/27/The-Difficulties-of-Text-Generation-with-Autoregressive-Language-Models/)
+
+> While some may criticize the autoregressive formulation because people generally
+> don’t write purely autoregressively, there actually are authors who use this sort
+> of technique to write *entire* books.
+
 # Interpreting GPT
 
 [Interpreting GPT: the logit lens](https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens) - Also see the "Mentioned in" section at the end.
@@ -106,17 +112,18 @@ reduce the FF matrices to 1-bit precision, by using just +1 or -1 values.
 
 # Other Links
 
-The GPT paper? [Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
-
 The GPT-2 paper? [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)
 
 [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258)
 
 # Random thoughts
 
-We can't help equating language ability and intelligence.  Therefore, the LLMs eloquence might be fooling us into thinking they are smart.
+We can't help equating language ability and intelligence.  Therefore, the LLMs' eloquence might be fooling us into thinking they are smart.
 
 # Inbox
 
 [The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 
+The GPT paper? [Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
+
+[The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751)
