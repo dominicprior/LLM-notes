@@ -156,9 +156,12 @@ reduce the FF matrices to 1-bit precision, by using just +1 or -1 values.
 
 [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 
-The GPT-2 paper? [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)
+[Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) -
+The GPT-2 paper?
 
 [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258)
+
+[What OpenAI Really Wants](https://www.wired.com/story/what-openai-really-wants/) - A fun history of OpenAI.
 
 # Random thoughts
 
@@ -172,6 +175,6 @@ An LLM is like a fuzzy hologram of the web.
 
 [The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 
-The GPT paper? [Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
+[Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) - The original GPT paper?
 
 [The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751)
