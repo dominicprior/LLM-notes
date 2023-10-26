@@ -17,7 +17,7 @@ As [Dan Piponi](https://mathstodon.xyz/@dpiponi/111116694861297725) noted:
 
 Here are some weaknesses:
 
-+ The inability to tell if they are [telling the truth](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)).
++ The inability to tell if they are [telling the truth](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)).  They never know when to shut up!
 
 + Anything requiring precision (like we might expect from, say, a database).
 
