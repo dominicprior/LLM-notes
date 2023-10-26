@@ -17,7 +17,7 @@ Here are some weaknesses:
 
 + They can't do anything requiring precision (like we might expect from, say, a database).
 
-+ They need a huge amount of training data.  The biggest models consume, maybe, a trillion words, unlike a ten-year-old child, who sees or hears about a hundred million words.
++ They need a huge amount of training data.  The biggest models consume, maybe, a trillion words, unlike a ten-year-old child, who has seen or heard about a hundred million words.
 
 + They only correspond to a small part of the human brain, and so they may not be as smart as we think.
 
