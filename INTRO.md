@@ -23,7 +23,7 @@ Here are some weaknesses:
 
 + They need a huge amount of training data.  The biggest models consume, maybe, a trillion words, unlike a ten-year-old child, who sees or hears about a hundred million words.
 
-+ They only correspond to a small part of the human brain, and so they may not be as smart as they look.
++ They only correspond to a small part of the human brain, and so they may not be as smart as we think.
 
 ![Picture of Broca's and Wernicke's part of the brain](broca.png)
 
