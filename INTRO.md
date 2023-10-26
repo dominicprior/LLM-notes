@@ -76,6 +76,8 @@ I hadn't realized how severe the GPU memory problems were. The solution seems to
 > don’t write purely autoregressively, there actually are authors who use this sort
 > of technique to write *entire* books.
 
+[The Decade of Deep Learning](https://bmk.sh/2019/12/31/The-Decade-of-Deep-Learning/)
+
 # Interpreting GPT
 
 [Interpreting GPT: the logit lens](https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens) - Also see the "Mentioned in" section at the end.
