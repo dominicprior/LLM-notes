@@ -157,6 +157,10 @@ that are drawn from a given dataset, which we intentionally do not make proporti
 result, when we train for 300 billion tokens, some datasets are seen up to 3.4 times during training while other datasets
 are seen less than once.
 
+Here is the training data for [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971):
+
+![Llama training data](llama_training.png)
+
 # Optimization
 
 [BitNet: Scaling 1-bit Transformers for Large Language Models](https://arxiv.org/abs/2310.11453) -
