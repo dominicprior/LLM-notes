@@ -49,6 +49,7 @@ and a couple of feed forward layers with a further 8 * 12288 * 12288 parameters.
 The parameter count doesn't depend on the context window size (which, for GPT-3, is 2048),
 or the number of attention heads, or the vocabulary size (which, for GPT-3, is 50,257).
 Instead, it just depends on the number of layers and the model dimension (the embedding size of each token).
+(According to [https://en.wikipedia.org/wiki/GPT-4](https://en.wikipedia.org/wiki/GPT-4), the GPT-3.5 context window is 4096 tokens).
 
 According to [this](https://github.com/amirgholami/ai_and_memory_wall#nlp-models), GPT-3 needs 740 teraflops to infer a single token,
 due to each parameter being used many times (which, in turn, allows the model to do more computation than the raw parameter count would imply).
@@ -146,11 +147,20 @@ reduce the FF matrices to 1-bit precision, by using just +1 or -1 values.
 
 [Generating Long Sequences with Sparse Transformers](https://arxiv.org/abs/1904.10509) - sparse factorizations of the attention matrix which reduce the cost to O(n√n).
 
+[Nvidia increases performance a thousandfold](https://spectrum.ieee.org/nvidia-gpu)
+
++ Number Representation: 16x
++ Complex Instructions: 12.5x
++ Moore’s Law: 2.5x
++ Sparsity: 2x
+
 # Tuning
 
 [Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning](https://arxiv.org/abs/2012.13255)
 
 [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
+
+[Brex's Prompt Engineering Guide](https://github.com/brexhq/prompt-engineering) ⊗
 
 # Hallucinations
 
@@ -160,7 +170,10 @@ reduce the FF matrices to 1-bit precision, by using just +1 or -1 values.
 
 # Wikipedia links
 
-[GPT-2](https://en.wikipedia.org/wiki/GPT-2), [GPT-3](https://en.wikipedia.org/wiki/GPT-3), 
+[GPT-2](https://en.wikipedia.org/wiki/GPT-2),
+[GPT-3](https://en.wikipedia.org/wiki/GPT-3),
+[Prompt engineering](https://en.wikipedia.org/wiki/Prompt_engineering) ⊗,
+[GPT-4](https://en.wikipedia.org/wiki/GPT-4),
 
 # Landmark papers
 
