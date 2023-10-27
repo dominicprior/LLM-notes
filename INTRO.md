@@ -78,6 +78,14 @@ I hadn't realized how severe the GPU memory problems were. The solution seems to
 
 [The Decade of Deep Learning](https://bmk.sh/2019/12/31/The-Decade-of-Deep-Learning/)
 
+> Adam is based on the idea of adapting separate learning rates for each parameter.
+
+> AlphaGo consists of a policy network and a value network that narrow the search tree and allow for truncation of the search tree, respectively.
+
+> Neural Architecture Search has become common practice in the field for squeezing every drop of performance out of networks.
+
+> The Lottery Ticket Hypothesis asserts that most of a network’s performance comes from a certain subnetwork due to a lucky initialization.
+
 # Interpreting GPT
 
 [Interpreting GPT: the logit lens](https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens) - Also see the "Mentioned in" section at the end.
@@ -154,12 +162,21 @@ reduce the FF matrices to 1-bit precision, by using just +1 or -1 values.
 
 [GPT-2](https://en.wikipedia.org/wiki/GPT-2), [GPT-3](https://en.wikipedia.org/wiki/GPT-3), 
 
-# Other Links
+# Landmark papers
 
 [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 
-[Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) -
-The GPT-2 paper?
+[Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) - The original GPT paper ⊗
+
+[Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) - GPT-2
+
+# Resources
+
+[https://paperswithcode.com/](https://paperswithcode.com/)
+
+[https://github.com/huggingface/transformers](https://github.com/huggingface/transformers)
+
+# Other Links
 
 [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258)
 
@@ -176,7 +193,5 @@ An LLM is like a fuzzy hologram of the web.
 # Inbox
 
 [The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
-
-[Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) - The original GPT paper?
 
 [The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751)
