@@ -198,6 +198,8 @@ reduce the FF matrices to 1-bit precision, by using just +1 or -1 values.
 > Always ask for “twenty ideas for”—you’ll find that the first ten are super-obvious,
 > but once you get past those things start getting interesting.
 
+"With GPT questions, the vaguer the better sometimes" - Terence Tao
+
 # Hallucinations
 
 [Looking for an interpretability paper](https://www.reddit.com/r/mlscaling/comments/175xtbt/looking_for_an_interpretability_paper_that/)
