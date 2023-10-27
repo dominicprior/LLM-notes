@@ -183,6 +183,11 @@ reduce the FF matrices to 1-bit precision, by using just +1 or -1 values.
 
 [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) - GPT-2
 
+# Guides
+
+[The Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/),
+[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+
 # Resources
 
 [https://paperswithcode.com/](https://paperswithcode.com/)
