@@ -71,12 +71,6 @@ I hadn't realized how severe the GPU memory problems were. The solution seems to
 
 [Why GPT-3 Matters](https://bmk.sh/2020/05/29/GPT-3-A-Brief-Summary/)
 
-[The Difficulties of Text Generation using Autoregressive Language Models: A Brief Overview](https://bmk.sh/2019/10/27/The-Difficulties-of-Text-Generation-with-Autoregressive-Language-Models/)
-
-> While some may criticize the autoregressive formulation because people generally
-> don’t write purely autoregressively, there actually are authors who use this sort
-> of technique to write *entire* books.
-
 [The Decade of Deep Learning](https://bmk.sh/2019/12/31/The-Decade-of-Deep-Learning/)
 
 > Adam is based on the idea of adapting separate learning rates for each parameter.
@@ -86,6 +80,27 @@ I hadn't realized how severe the GPU memory problems were. The solution seems to
 > Neural Architecture Search has become common practice in the field for squeezing every drop of performance out of networks.
 
 > The Lottery Ticket Hypothesis asserts that most of a network’s performance comes from a certain subnetwork due to a lucky initialization.
+
+# Text generation
+
+[How to generate text](https://huggingface.co/blog/how-to-generate) - Greedy search, Beam search, Top-K Sampling, Top-p sampling
+
+> *Auto-regressive* language generation is based on the assumption that the probability distribution of a
+> word sequence can be decomposed into the product of conditional next word distributions
+
+> As ad-hoc decoding methods, top-p and top-K sampling seem to produce more fluent text than traditional greedy -
+> and beam search on open-ended language generation. There is evidence that the apparent flaws of greedy and beam search -
+> mainly generating repetitive word sequences - are caused by the model (especially the way the model is trained),
+> rather than the decoding method
+
+[The Difficulties of Text Generation using Autoregressive Language Models: A Brief Overview](https://bmk.sh/2019/10/27/The-Difficulties-of-Text-Generation-with-Autoregressive-Language-Models/)
+
+> While some may criticize the autoregressive formulation because people generally
+> don’t write purely autoregressively, there actually are authors who use this sort
+> of technique to write *entire* books.
+
+"GPT learning has been great at capturing the underlying reality and maybe the weak point is the text generation" - Sutskever -
+[https://www.youtube.com/watch?v=SjhIlw3Iffs](https://www.youtube.com/watch?v=SjhIlw3Iffs)
 
 # Interpreting GPT
 
@@ -122,12 +137,14 @@ I hadn't realized how severe the GPU memory problems were. The solution seems to
 
 # Brains
 
-In "Thinking, Fast and Slow", it says unexpected words causes a distinctive pattern in brain activity to
-start within a fifth of a second.
+In [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow),
+it says unexpected words cause a distinctive pattern in brain activity to
+start within a fifth of a second.  So, the brain is continuously running an LLM!
+Apparently, the peak brain clock rate is 200 Hz and the synapse speed is less than a millisecond.
 
-So, in other words, when we're listening, the brain is continuously running an LLM.
-
-I didn't think neurons were fast enough, and so I googled for things like "brain clock rate" (peak 200 Hz) and "synapse speed" (less than a millisecond), and so maybe there is indeed time for a few dozen neuron layers.
+"The reason a neural net can be successful in writing an essay is because writing an essay
+turns out to be a “computationally shallower” problem than we thought" -
+[Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
 
 # Training
 
@@ -154,6 +171,10 @@ reduce the FF matrices to 1-bit precision, by using just +1 or -1 values.
 + Moore’s Law: 2.5x
 + Sparsity: 2x
 
+[You can now run a GPT-3-level AI model on your laptop, phone, and Raspberry Pi](https://arstechnica.com/information-technology/2023/03/you-can-now-run-a-gpt-3-level-ai-model-on-your-laptop-phone-and-raspberry-pi/)
+
+> Regarding AI's rate of progress, a fellow AI reporter told Ars, "It's like those videos of dogs where you upend a crate of tennis balls on them. [They] don't know where to chase first and get lost in the confusion."
+
 # Tuning
 
 [Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning](https://arxiv.org/abs/2012.13255)
@@ -161,6 +182,17 @@ reduce the FF matrices to 1-bit precision, by using just +1 or -1 values.
 [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
 
 [Brex's Prompt Engineering Guide](https://github.com/brexhq/prompt-engineering) ⊗
+
+# Use cases
+
+[Catching up on the weird world of LLMs](https://simonwillison.net/2023/Aug/3/weird-world-of-llms/)
+
+> I read academic papers by pasting pieces of them into GPT-4 and asking it to explain every jargon term in the extract.
+
+> I no longer dread naming things. I can ask it for 20 ideas for names, and maybe option number 15 is the one I go with.
+> (It beats brainstorming for an hour).
+> Always ask for “twenty ideas for”—you’ll find that the first ten are super-obvious,
+> but once you get past those things start getting interesting.
 
 # Hallucinations
 
@@ -200,6 +232,8 @@ reduce the FF matrices to 1-bit precision, by using just +1 or -1 values.
 
 [What OpenAI Really Wants](https://www.wired.com/story/what-openai-really-wants/) - A fun history of OpenAI.
 
+# Random quotes
+
 # Random thoughts
 
 We can't help equating language ability and intelligence.  Therefore, the LLMs' eloquence might be fooling us into thinking they are smart.
@@ -213,3 +247,7 @@ An LLM is like a fuzzy hologram of the web.
 [The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 
 [The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751)
+
+Retrieval Augmented Generation.
+
+openai embeddings api.
