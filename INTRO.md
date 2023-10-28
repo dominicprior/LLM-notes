@@ -40,6 +40,8 @@ Or in summary:
 
 > Cases that a human “can solve in a glance” the neural net can solve too. But cases that require doing something “more algorithmic” the neural net tends to somehow be “too computationally shallow” to reliably do.
 
+[Prompt injection: What’s the worst that can happen?](https://simonwillison.net/2023/Apr/14/worst-that-can-happen/)
+
 # Scale
 
 The GPT-3 paper, [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165), has this:
@@ -71,6 +73,8 @@ and then, intriguingly:
 [Memory bandwidth constraints imply economies of scale in AI inference](https://www.lesswrong.com/posts/cB2Rtnp7DBTpDy3ii/memory-bandwidth-constraints-imply-economies-of-scale-in-ai) -
 I hadn't realized how severe the GPU memory problems were.
 The solution seems to be to favour things like matrix multiply where the computation is O(N<sup>3</sup>) and the memory is O(N<sup>2</sup>), possibly with tiling to make sure things fit in the cache.
+
+[Chinchilla's wild implications](https://www.lesswrong.com/posts/6Fpvch8RR29qLEWNH/chinchilla-s-wild-implications) - running out of data.
 
 # Overviews
 
@@ -249,6 +253,8 @@ to get it to usefully go in particular directions." -
 [https://paperswithcode.com/](https://paperswithcode.com/)
 
 [https://github.com/huggingface/transformers](https://github.com/huggingface/transformers)
+
+[AI Canon](https://a16z.com/ai-canon/)
 
 # Tutorials
 
