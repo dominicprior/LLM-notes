@@ -42,6 +42,12 @@ Or in summary:
 
 [Prompt injection: What’s the worst that can happen?](https://simonwillison.net/2023/Apr/14/worst-that-can-happen/)
 
+# Hallucinations
+
+[Looking for an interpretability paper](https://www.reddit.com/r/mlscaling/comments/175xtbt/looking_for_an_interpretability_paper_that/)
+
+[Chain-of-Verification Reduces Hallucination in Large Language Models](https://arxiv.org/abs/2309.11495)
+
 # Scale
 
 The GPT-3 paper, [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165), has this:
@@ -206,12 +212,6 @@ turns out to be a “computationally shallower” problem than we thought" -
 "With GPT questions, the vaguer the better sometimes" - Terence Tao
 
 [Brex's Prompt Engineering Guide](https://github.com/brexhq/prompt-engineering) ⊗
-
-# Hallucinations
-
-[Looking for an interpretability paper](https://www.reddit.com/r/mlscaling/comments/175xtbt/looking_for_an_interpretability_paper_that/)
-
-[Chain-of-Verification Reduces Hallucination in Large Language Models](https://arxiv.org/abs/2309.11495)
 
 # Overviews
 
