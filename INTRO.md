@@ -109,11 +109,17 @@ The solution seems to be to favour things like matrix multiply where the computa
 
 # Interpreting GPT
 
+[Othello-GPT](https://www.neelnanda.io/mechanistic-interpretability/othello)
+
+[A Comprehensive Mechanistic Interpretability Explainer & Glossary](https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J)
+
 [Interpreting GPT: the logit lens](https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens) - Also see the "Mentioned in" section at the end.
 ![A thumbnail of some logits in successive GPT layers](the_logit_lens.png)
 
 [A jargon-free explanation of how AI large language models work](https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/)
-![A layer where words are getting annotated](transformer_layer.png) - including the brilliant squirrels analogy for how NNs are trained
+![A layer where words are getting annotated](transformer_layer.png) - including the brilliant squirrels analogy for how NNs are trained.  There's also this quip:
+
+> A kind of “clever Hans” effect, only in language models rather than horses.
 
 [Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small](https://arxiv.org/abs/2211.00593)
 ![a circuit in GPT-2 small that implements IOI](mary_and_john.png)
@@ -204,7 +210,7 @@ to get it to usefully go in particular directions." -
 
 > I no longer dread naming things. I can ask it for 20 ideas for names, and maybe option number 15 is the one I go with.
 > (It beats brainstorming for an hour).
-> Always ask for “twenty ideas for”—you’ll find that the first ten are super-obvious,
+> Always ask for “twenty ideas for” — you’ll find that the first ten are super-obvious,
 > but once you get past those things start getting interesting.
 
 "With GPT questions, the vaguer the better sometimes" - Terence Tao
