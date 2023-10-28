@@ -251,7 +251,8 @@ including finetuning and RHLF at 13:00 to 17:00, and LoRA at 35:18.
 [Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) -
 Karpathy's 12 hour video series that builds towards [this implementation](https://github.com/karpathy/ng-video-lecture/blob/master/gpt.py).
 
-[The Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/),
+[The Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/)
+
 [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
 
 # The impacts of AI
