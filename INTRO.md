@@ -36,6 +36,10 @@ Anyway, here are some weaknesses:
 > Of course, the network can learn the answer to specific “irreducible” computations.
 > But as soon as there are combinatorial numbers of possibilities, no such “table-lookup-style” approach will work.
 
+Or in summary:
+
+> Cases that a human “can solve in a glance” the neural net can solve too. But cases that require doing something “more algorithmic” the neural net tends to somehow be “too computationally shallow” to reliably do.
+
 # Scale
 
 The GPT-3 paper, [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165), has this:
@@ -65,7 +69,8 @@ and then, intriguingly:
 > perhaps suggesting that larger models are more proficient meta-learners
 
 [Memory bandwidth constraints imply economies of scale in AI inference](https://www.lesswrong.com/posts/cB2Rtnp7DBTpDy3ii/memory-bandwidth-constraints-imply-economies-of-scale-in-ai) -
-I hadn't realized how severe the GPU memory problems were. The solution seems to be to favour things like matrix multiply where the computation is O(N^3) and the memory is O(N^2), possibly with tiling to make sure things fit in the cache.
+I hadn't realized how severe the GPU memory problems were.
+The solution seems to be to favour things like matrix multiply where the computation is O(N<sup>3</sup>) and the memory is O(N<sup>2</sup>), possibly with tiling to make sure things fit in the cache.
 
 # Overviews
 
@@ -181,6 +186,10 @@ reduce the FF matrices to 1-bit precision, by using just +1 or -1 values.
 
 # Tuning
 
+"In general, it’s interesting how little “poking” the “originally trained” network seems to need
+to get it to usefully go in particular directions." -
+[Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
+
 [Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning](https://arxiv.org/abs/2012.13255)
 
 [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
@@ -232,13 +241,20 @@ reduce the FF matrices to 1-bit precision, by using just +1 or -1 values.
 
 [https://github.com/huggingface/transformers](https://github.com/huggingface/transformers)
 
+# Tutorials
+
+[Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) -
+Karpathy's 12 hour video series that builds towards [this implementation](https://github.com/karpathy/ng-video-lecture/blob/master/gpt.py).
+
 # Other Links
 
 [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258)
 
 [What OpenAI Really Wants](https://www.wired.com/story/what-openai-really-wants/) - A fun history of OpenAI.
 
-# Random quotes
+# The impacts of AI
+
+[AI and the automation of work](https://www.ben-evans.com/benedictevans/2023/7/2/working-with-ai)
 
 # Random thoughts
 
