@@ -3,7 +3,7 @@
 From writing poetry to giving medical advice, [large language models](https://en.wikipedia.org/wiki/Large_language_model) are amazingly general,
 giving us a first hint of the G in [artificial general intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence).
 They are also [surprisingly simple](https://dugas.ch/artificial_curiosity/GPT_architecture.html),
-and yet deeply opaque, due to their immense size and monolithic nature.
+and yet are deeply opaque.
 
 # Weaknesses
 
@@ -17,11 +17,11 @@ and:
 
 Anyway, here are some weaknesses:
 
-+ They don't know when they are [telling the truth](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)).  They never know when to shut up!
++ They don't know when they are [telling the truth](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)) - they never know when to shut up!
 
-+ They can't do anything requiring precision (like we might expect from, say, a database).
++ They can't do anything requiring precision (unlike, say, a database).
 
-+ They need a huge amount of training data.  The biggest models consume, maybe, a trillion words, unlike a ten-year-old child, who has seen or heard about a hundred million words.
++ They need a huge amount of training data (a trillion words, unlike a ten-year-old child, who has seen or heard about a hundred million words).
 
 + They only correspond to a small part of the human brain, and so they may not be as smart as we think.
 
@@ -29,7 +29,7 @@ Anyway, here are some weaknesses:
 
 [Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) highlights another major gap:
 
-> But try to give it rules for an actual “deep” computation that involves many potentially computationally irreducible steps
+> Try to give it rules for an actual “deep” computation that involves many potentially computationally irreducible steps
 > and it just won’t work. (Remember that at each step it’s always just “feeding data forward” in its network,
 > never looping except by virtue of generating new tokens.)
 
@@ -52,10 +52,9 @@ The last row shows that the full GPT-3 has 175 billion parameters, arranged in 9
 where each block has an attention layer with 4 * 12288 * 12288 parameters
 and a couple of feed forward layers with a further 8 * 12288 * 12288 parameters.
 
-The parameter count doesn't depend on the context window size (which, for GPT-3, is 2048),
-or the number of attention heads, or the vocabulary size (which, for GPT-3, is 50,257).
+The parameter count doesn't depend on the context window size (which for GPT-3 is 2048 and for GPT-3.5 is 4096),
+or the number of attention heads, or the vocabulary size (which for GPT-3 is 50,257).
 Instead, it just depends on the number of layers and the model dimension (the embedding size of each token).
-(According to [https://en.wikipedia.org/wiki/GPT-4](https://en.wikipedia.org/wiki/GPT-4), the GPT-3.5 context window is 4096 tokens).
 
 According to [this](https://github.com/amirgholami/ai_and_memory_wall#nlp-models), GPT-3 needs 740 teraflops to infer a single token,
 due to each parameter being used many times (which, in turn, allows the model to do more computation than the raw parameter count would imply).
@@ -71,8 +70,7 @@ and then, intriguingly:
 > perhaps suggesting that larger models are more proficient meta-learners
 
 [Memory bandwidth constraints imply economies of scale in AI inference](https://www.lesswrong.com/posts/cB2Rtnp7DBTpDy3ii/memory-bandwidth-constraints-imply-economies-of-scale-in-ai) -
-I hadn't realized how severe the GPU memory problems were.
-The solution seems to be to favour things like matrix multiply where the computation is O(N<sup>3</sup>) and the memory is O(N<sup>2</sup>), possibly with tiling to make sure things fit in the cache.
+avoiding GPU bandwidth limits by favouring things like matrix multiply where the computation is O(N<sup>3</sup>) and the memory is O(N<sup>2</sup>), possibly with tiling to make sure things fit in the cache.
 
 [Chinchilla's wild implications](https://www.lesswrong.com/posts/6Fpvch8RR29qLEWNH/chinchilla-s-wild-implications) - running out of data.
 
@@ -159,8 +157,8 @@ including finetuning and RHLF at 13:00 to 17:00, and LoRA at 35:18.
 
 # Brains
 
-In [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow),
-it says unexpected words cause a distinctive pattern in brain activity to
+[Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow),
+says unexpected words cause a distinctive pattern in brain activity to
 start within a fifth of a second.  So, the brain is continuously running an LLM!
 Apparently, the peak brain clock rate is 200 Hz and the synapse speed is less than a millisecond.
 
@@ -190,7 +188,7 @@ reduce the FF matrices to 1-bit precision, by using just +1 or -1 values.
 
 [Generating Long Sequences with Sparse Transformers](https://arxiv.org/abs/1904.10509) - sparse factorizations of the attention matrix which reduce the cost to O(n√n).
 
-[Nvidia increases performance a thousandfold](https://spectrum.ieee.org/nvidia-gpu)
+[Nvidia increases performance a thousandfold](https://spectrum.ieee.org/nvidia-gpu):
 
 + Number Representation: 16x
 + Complex Instructions: 12.5x
@@ -234,7 +232,7 @@ to get it to usefully go in particular directions." -
 
 # Landmark papers
 
-[Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+[Attention Is All You Need](https://arxiv.org/abs/1706.03762) - Transformers
 
 [Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) - GPT
 
