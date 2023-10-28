@@ -76,23 +76,6 @@ avoiding GPU bandwidth limits by favouring things like matrix multiply where the
 
 [The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 
-# Overviews
-
-[State of GPT](https://build.microsoft.com/en-US/sessions/db3f4859-cd30-4445-a0cd-553c3304f8e2) -
-including finetuning and RHLF at 13:00 to 17:00, and LoRA at 35:18.
-
-[Why GPT-3 Matters](https://bmk.sh/2020/05/29/GPT-3-A-Brief-Summary/)
-
-[The Decade of Deep Learning](https://bmk.sh/2019/12/31/The-Decade-of-Deep-Learning/)
-
-> Adam is based on the idea of adapting separate learning rates for each parameter.
-
-> AlphaGo consists of a policy network and a value network that narrow the search tree and allow for truncation of the search tree, respectively.
-
-> Neural Architecture Search has become common practice in the field for squeezing every drop of performance out of networks.
-
-> The Lottery Ticket Hypothesis asserts that most of a network’s performance comes from a certain subnetwork due to a lucky initialization.
-
 # Text generation
 
 [How to generate text](https://huggingface.co/blog/how-to-generate) - Greedy search, Beam search, Top-K Sampling, Top-p sampling
@@ -229,6 +212,23 @@ to get it to usefully go in particular directions." -
 [Looking for an interpretability paper](https://www.reddit.com/r/mlscaling/comments/175xtbt/looking_for_an_interpretability_paper_that/)
 
 [Chain-of-Verification Reduces Hallucination in Large Language Models](https://arxiv.org/abs/2309.11495)
+
+# Overviews
+
+[State of GPT](https://build.microsoft.com/en-US/sessions/db3f4859-cd30-4445-a0cd-553c3304f8e2) -
+including finetuning and RHLF at 13:00 to 17:00, and LoRA at 35:18.
+
+[Why GPT-3 Matters](https://bmk.sh/2020/05/29/GPT-3-A-Brief-Summary/)
+
+[The Decade of Deep Learning](https://bmk.sh/2019/12/31/The-Decade-of-Deep-Learning/)
+
+> Adam is based on the idea of adapting separate learning rates for each parameter.
+
+> AlphaGo consists of a policy network and a value network that narrow the search tree and allow for truncation of the search tree, respectively.
+
+> Neural Architecture Search has become common practice in the field for squeezing every drop of performance out of networks.
+
+> The Lottery Ticket Hypothesis asserts that most of a network’s performance comes from a certain subnetwork due to a lucky initialization.
 
 # Landmark papers
 
