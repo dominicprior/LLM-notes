@@ -74,6 +74,9 @@ The solution seems to be to favour things like matrix multiply where the computa
 
 # Overviews
 
+[State of GPT](https://build.microsoft.com/en-US/sessions/db3f4859-cd30-4445-a0cd-553c3304f8e2) -
+including finetuning and RHLF at 13:00 to 17:00, and LoRA at 35:18.
+
 [Why GPT-3 Matters](https://bmk.sh/2020/05/29/GPT-3-A-Brief-Summary/)
 
 [The Decade of Deep Learning](https://bmk.sh/2019/12/31/The-Decade-of-Deep-Learning/)
