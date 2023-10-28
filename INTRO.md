@@ -76,6 +76,8 @@ The solution seems to be to favour things like matrix multiply where the computa
 
 [Chinchilla's wild implications](https://www.lesswrong.com/posts/6Fpvch8RR29qLEWNH/chinchilla-s-wild-implications) - running out of data.
 
+[The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
+
 # Overviews
 
 [State of GPT](https://build.microsoft.com/en-US/sessions/db3f4859-cd30-4445-a0cd-553c3304f8e2) -
@@ -113,6 +115,8 @@ including finetuning and RHLF at 13:00 to 17:00, and LoRA at 35:18.
 
 "GPT learning has been great at capturing the underlying reality and maybe the weak point is the text generation" - Sutskever -
 [https://www.youtube.com/watch?v=SjhIlw3Iffs](https://www.youtube.com/watch?v=SjhIlw3Iffs)
+
+[The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751)
 
 # Interpreting GPT
 
@@ -228,25 +232,15 @@ to get it to usefully go in particular directions." -
 
 [Chain-of-Verification Reduces Hallucination in Large Language Models](https://arxiv.org/abs/2309.11495)
 
-# Wikipedia links
-
-[GPT-2](https://en.wikipedia.org/wiki/GPT-2),
-[GPT-3](https://en.wikipedia.org/wiki/GPT-3),
-[Prompt engineering](https://en.wikipedia.org/wiki/Prompt_engineering) ⊗,
-[GPT-4](https://en.wikipedia.org/wiki/GPT-4),
-
 # Landmark papers
 
 [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 
-[Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) - The original GPT paper ⊗
+[Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) - GPT
 
 [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) - GPT-2
 
-# Guides
-
-[The Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/),
-[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) - GPT-3
 
 # Resources
 
@@ -256,22 +250,19 @@ to get it to usefully go in particular directions." -
 
 [AI Canon](https://a16z.com/ai-canon/)
 
-# Tutorials
-
 [Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) -
 Karpathy's 12 hour video series that builds towards [this implementation](https://github.com/karpathy/ng-video-lecture/blob/master/gpt.py).
 
-# Other Links
-
-[On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258)
-
-[What OpenAI Really Wants](https://www.wired.com/story/what-openai-really-wants/) - A fun history of OpenAI.
+[The Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/),
+[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
 
 # The impacts of AI
 
 [AI and the automation of work](https://www.ben-evans.com/benedictevans/2023/7/2/working-with-ai)
 
 [AI Alignment Is Turning from Alchemy Into Chemistry](https://guzey.com/ai/alignment-alchemy/)
+
+[On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258)
 
 # Random thoughts
 
@@ -281,12 +272,12 @@ LLMs don't contain control-flow things like "if" statements.
 
 An LLM is like a fuzzy hologram of the web.
 
-# Inbox
+Retrieval Augmented Generation.  OpenAI embeddings api.
 
-[The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
+Wikipedia:
+[GPT-2](https://en.wikipedia.org/wiki/GPT-2),
+[GPT-3](https://en.wikipedia.org/wiki/GPT-3),
+[Prompt engineering](https://en.wikipedia.org/wiki/Prompt_engineering) ⊗,
+[GPT-4](https://en.wikipedia.org/wiki/GPT-4),
 
-[The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751)
-
-Retrieval Augmented Generation.
-
-openai embeddings api.
+[What OpenAI Really Wants](https://www.wired.com/story/what-openai-really-wants/) - A fun history of OpenAI.
