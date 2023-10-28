@@ -271,6 +271,8 @@ Karpathy's 12 hour video series that builds towards [this implementation](https:
 
 [AI and the automation of work](https://www.ben-evans.com/benedictevans/2023/7/2/working-with-ai)
 
+[AI Alignment Is Turning from Alchemy Into Chemistry](https://guzey.com/ai/alignment-alchemy/)
+
 # Random thoughts
 
 We can't help equating language ability and intelligence.  Therefore, the LLMs' eloquence might be fooling us into thinking they are smart.
