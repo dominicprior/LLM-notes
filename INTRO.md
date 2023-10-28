@@ -138,17 +138,6 @@ avoiding GPU bandwidth limits by favouring things like matrix multiply where the
 
 [Beyond Surface Statistics: Scene Representations in a Latent Diffusion Model](https://arxiv.org/abs/2306.05720)
 
-# Brains
-
-[Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow),
-says unexpected words cause a distinctive pattern in brain activity to
-start within a fifth of a second.  So, the brain is continuously running an LLM!
-Apparently, the peak brain clock rate is 200 Hz and the synapse speed is less than a millisecond.
-
-"The reason a neural net can be successful in writing an essay is because writing an essay
-turns out to be a “computationally shallower” problem than we thought" -
-[Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
-
 # Training
 
 From the GPT-3 paper, [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165):
@@ -192,9 +181,18 @@ to get it to usefully go in particular directions." -
 
 [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
 
-[Brex's Prompt Engineering Guide](https://github.com/brexhq/prompt-engineering) ⊗
+# Brains
 
-# Use cases
+[Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow),
+says unexpected words cause a distinctive pattern in brain activity to
+start within a fifth of a second.  So, the brain is continuously running an LLM!
+Apparently, the peak brain clock rate is 200 Hz and the synapse speed is less than a millisecond.
+
+"The reason a neural net can be successful in writing an essay is because writing an essay
+turns out to be a “computationally shallower” problem than we thought" -
+[Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
+
+# Using LLMs
 
 [Catching up on the weird world of LLMs](https://simonwillison.net/2023/Aug/3/weird-world-of-llms/)
 
@@ -206,6 +204,8 @@ to get it to usefully go in particular directions." -
 > but once you get past those things start getting interesting.
 
 "With GPT questions, the vaguer the better sometimes" - Terence Tao
+
+[Brex's Prompt Engineering Guide](https://github.com/brexhq/prompt-engineering) ⊗
 
 # Hallucinations
 
