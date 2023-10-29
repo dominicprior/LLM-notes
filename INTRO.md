@@ -177,6 +177,8 @@ reduce the FF matrices to 1-bit precision, by using just +1 or -1 values.
 
 > Regarding AI's rate of progress, a fellow AI reporter told Ars, "It's like those videos of dogs where you upend a crate of tennis balls on them. [They] don't know where to chase first and get lost in the confusion."
 
+[FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)
+
 # Tuning
 
 "In general, it’s interesting how little “poking” the “originally trained” network seems to need
@@ -255,6 +257,8 @@ Karpathy's 12 hour video series that builds towards [this implementation](https:
 
 [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
 
+[Visualizing Matrix Multiplication](https://pytorch.org/blog/inside-the-matrix/)
+
 # The impacts of AI
 
 [AI and the automation of work](https://www.ben-evans.com/benedictevans/2023/7/2/working-with-ai)
@@ -278,5 +282,6 @@ Wikipedia:
 [GPT-3](https://en.wikipedia.org/wiki/GPT-3),
 [Prompt engineering](https://en.wikipedia.org/wiki/Prompt_engineering) ⊗,
 [GPT-4](https://en.wikipedia.org/wiki/GPT-4),
+[The Pile](https://en.wikipedia.org/wiki/The_Pile_(dataset)),
 
 [What OpenAI Really Wants](https://www.wired.com/story/what-openai-really-wants/) - A fun history of OpenAI.
