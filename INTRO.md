@@ -115,7 +115,16 @@ avoiding GPU bandwidth limits by favouring things like matrix multiply where the
 ![A thumbnail of some logits in successive GPT layers](the_logit_lens.png)
 
 [A jargon-free explanation of how AI large language models work](https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/)
-![A layer where words are getting annotated](transformer_layer.png) - including the brilliant squirrels analogy for how NNs are trained.  There's also this quip:
+![A layer where words are getting annotated](transformer_layer.png) - including the brilliant squirrels analogy for how NNs are trained.
+
+> You can think of the attention mechanism as a matchmaking service for words.
+
+> You can think of all those [12288] dimensions as a kind of “scratch space” that GPT-3
+> can use to write notes to itself about the context of each word. Notes made by earlier
+> layers can be read and modified by later layers, allowing the model to gradually sharpen
+> its understanding of the passage as a whole.
+
+There's also this quip:
 
 > A kind of “clever Hans” effect, only in language models rather than horses.
 
