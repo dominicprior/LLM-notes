@@ -104,7 +104,8 @@ avoiding GPU bandwidth limits by favouring things like matrix multiply where the
 ![YouTube logo](yt.png)
 [https://www.youtube.com/watch?v=SjhIlw3Iffs](https://www.youtube.com/watch?v=SjhIlw3Iffs)
 
-[The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751)
+[The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751) - Beam search text (blue) is less surprising than human text (orange):
+![A graph of the surprisingness of beam search vs human text](beam_search_is_less_surprising.png)
 
 # Interpreting GPT
 
