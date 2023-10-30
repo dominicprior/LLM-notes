@@ -86,11 +86,8 @@ avoiding GPU bandwidth limits by favouring things like matrix multiply where the
 
 [How to generate text](https://huggingface.co/blog/how-to-generate) - Greedy search, Beam search, Top-K Sampling, Top-p sampling
 
-> *Auto-regressive* language generation is based on the assumption that the probability distribution of a
-> word sequence can be decomposed into the product of conditional next word distributions
-
 > As ad-hoc decoding methods, top-p and top-K sampling seem to produce more fluent text than traditional greedy -
-> and beam search on open-ended language generation. There is evidence that the apparent flaws of greedy and beam search -
+> and beam search on *open-ended* language generation. There is evidence that the apparent flaws of greedy and beam search -
 > mainly generating repetitive word sequences - are caused by the model (especially the way the model is trained),
 > rather than the decoding method
 
@@ -106,6 +103,10 @@ avoiding GPU bandwidth limits by favouring things like matrix multiply where the
 
 [The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751) - Beam search text (blue) is less surprising than human text (orange):
 ![A graph of the surprisingness of beam search vs human text](beam_search_is_less_surprising.png)
+
+> Why is human-written text not the most probable text? ... people optimize against stating the obvious.
+
+[GPT-3 has a habit of repeating its input](https://news.ycombinator.com/item?id=26442211)
 
 # Interpreting GPT
 
