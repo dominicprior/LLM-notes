@@ -101,6 +101,7 @@ avoiding GPU bandwidth limits by favouring things like matrix multiply where the
 > of technique to write *entire* books.
 
 "GPT learning has been great at capturing the underlying reality and maybe the weak point is the text generation" - Sutskever -
+![YouTube logo](yt.png)
 [https://www.youtube.com/watch?v=SjhIlw3Iffs](https://www.youtube.com/watch?v=SjhIlw3Iffs)
 
 [The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751)
@@ -259,6 +260,7 @@ including finetuning and RHLF at 13:00 to 17:00, and LoRA at 35:18.
 
 [AI Canon](https://a16z.com/ai-canon/)
 
+![YouTube logo](yt.png)
 [Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) -
 Karpathy's 12 hour video series that builds towards [this implementation](https://github.com/karpathy/ng-video-lecture/blob/master/gpt.py).
 
