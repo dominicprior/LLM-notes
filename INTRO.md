@@ -101,6 +101,7 @@ avoiding GPU bandwidth limits by favouring things like matrix multiply where the
 > of technique to write *entire* books.
 
 "GPT learning has been great at capturing the underlying reality and maybe the weak point is the text generation" - Sutskever -
+![YouTube logo](yt.png)
 [https://www.youtube.com/watch?v=SjhIlw3Iffs](https://www.youtube.com/watch?v=SjhIlw3Iffs)
 
 [The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751)
@@ -115,7 +116,16 @@ avoiding GPU bandwidth limits by favouring things like matrix multiply where the
 ![A thumbnail of some logits in successive GPT layers](the_logit_lens.png)
 
 [A jargon-free explanation of how AI large language models work](https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/)
-![A layer where words are getting annotated](transformer_layer.png) - including the brilliant squirrels analogy for how NNs are trained.  There's also this quip:
+![A layer where words are getting annotated](transformer_layer.png) - including the brilliant squirrels analogy for how NNs are trained.
+
+> You can think of the attention mechanism as a matchmaking service for words.
+
+> You can think of all those [12288] dimensions as a kind of “scratch space” that GPT-3
+> can use to write notes to itself about the context of each word. Notes made by earlier
+> layers can be read and modified by later layers, allowing the model to gradually sharpen
+> its understanding of the passage as a whole.
+
+There's also this quip:
 
 > A kind of “clever Hans” effect, only in language models rather than horses.
 
@@ -176,6 +186,8 @@ reduce the FF matrices to 1-bit precision, by using just +1 or -1 values.
 [You can now run a GPT-3-level AI model on your laptop, phone, and Raspberry Pi](https://arstechnica.com/information-technology/2023/03/you-can-now-run-a-gpt-3-level-ai-model-on-your-laptop-phone-and-raspberry-pi/)
 
 > Regarding AI's rate of progress, a fellow AI reporter told Ars, "It's like those videos of dogs where you upend a crate of tennis balls on them. [They] don't know where to chase first and get lost in the confusion."
+
+[FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)
 
 # Tuning
 
@@ -248,12 +260,15 @@ including finetuning and RHLF at 13:00 to 17:00, and LoRA at 35:18.
 
 [AI Canon](https://a16z.com/ai-canon/)
 
+![YouTube logo](yt.png)
 [Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) -
 Karpathy's 12 hour video series that builds towards [this implementation](https://github.com/karpathy/ng-video-lecture/blob/master/gpt.py).
 
 [The Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/)
 
 [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+
+[Visualizing Matrix Multiplication](https://pytorch.org/blog/inside-the-matrix/)
 
 # The impacts of AI
 
@@ -278,5 +293,6 @@ Wikipedia:
 [GPT-3](https://en.wikipedia.org/wiki/GPT-3),
 [Prompt engineering](https://en.wikipedia.org/wiki/Prompt_engineering) ⊗,
 [GPT-4](https://en.wikipedia.org/wiki/GPT-4),
+[The Pile](https://en.wikipedia.org/wiki/The_Pile_(dataset)),
 
 [What OpenAI Really Wants](https://www.wired.com/story/what-openai-really-wants/) - A fun history of OpenAI.
