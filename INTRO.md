@@ -201,17 +201,6 @@ to get it to usefully go in particular directions." -
 
 [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
 
-# Brains
-
-[Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow),
-says unexpected words cause a distinctive pattern in brain activity to
-start within a fifth of a second.  So, the brain is continuously running an LLM!
-Apparently, the peak brain clock rate is 200 Hz and the synapse speed is less than a millisecond.
-
-"The reason a neural net can be successful in writing an essay is because writing an essay
-turns out to be a “computationally shallower” problem than we thought" -
-[Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
-
 # Using LLMs
 
 [Catching up on the weird world of LLMs](https://simonwillison.net/2023/Aug/3/weird-world-of-llms/)
@@ -226,6 +215,17 @@ turns out to be a “computationally shallower” problem than we thought" -
 "With GPT questions, the vaguer the better sometimes" - Terence Tao
 
 [Brex's Prompt Engineering Guide](https://github.com/brexhq/prompt-engineering) ⊗
+
+# Brains
+
+[Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow),
+says unexpected words cause a distinctive pattern in brain activity to
+start within a fifth of a second.  So, the brain is continuously running an LLM!
+Apparently, the peak brain clock rate is 200 Hz and the synapse speed is less than a millisecond.
+
+"The reason a neural net can be successful in writing an essay is because writing an essay
+turns out to be a “computationally shallower” problem than we thought" -
+[Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
 
 # Overviews
 
