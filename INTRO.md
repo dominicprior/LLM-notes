@@ -216,6 +216,10 @@ to get it to usefully go in particular directions." -
 
 [Brex's Prompt Engineering Guide](https://github.com/brexhq/prompt-engineering) ⊗
 
+A prompt may include a few examples for a model to learn from, such as "maison -> house,
+chat -> cat, chien ->", an approach called **few-shot learning**. -
+[Wikipedia](https://en.wikipedia.org/wiki/Prompt_engineering)
+
 # Brains
 
 [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow),
