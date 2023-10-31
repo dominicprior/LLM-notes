@@ -19,3 +19,13 @@ GPT-4 with good prompting plays good chess.
 > People decided it was hype because they dived in and asked it for arithmetic and facts!
 
 > Moving beyond a chat interface.
+
+[Finetuned language models are zero-shot learners](https://openreview.net/pdf?id=gEZrGCozdqR)
+
+> In this paper, we explore a simple method to improve the zero-shot performance of large language
+models, which would expand their reach to a broader audience.
+
+> The idea is that by using supervision to teach an LM to perform tasks described via
+instructions, the LM will learn to follow instructions and do so even for unseen tasks.
+
+It doesn't explain what the training is :(
