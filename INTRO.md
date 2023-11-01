@@ -157,6 +157,7 @@ There's also this quip:
 [Beyond Surface Statistics: Scene Representations in a Latent Diffusion Model](https://arxiv.org/abs/2306.05720)
 
 [Toy Models of Superposition](https://transformer-circuits.pub/2022/toy_model/index.html)
+![Thumbnail of feature sparsity](superposition.png)
 
 [Softmax Linear Units](https://transformer-circuits.pub/2022/solu/index.html) - **Anthropic** -
 Making models more interpretable
