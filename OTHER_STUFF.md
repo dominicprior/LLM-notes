@@ -29,3 +29,13 @@ models, which would expand their reach to a broader audience.
 instructions, the LM will learn to follow instructions and do so even for unseen tasks.
 
 It doesn't explain what the training is :(
+
+# Strengths
+
++ Huge general knowledge.
+
++ Perfect grammar.
+
++ Can generate an essay far quicker than a human.
+
++ Can follow the thread of a conversation.
