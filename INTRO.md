@@ -156,6 +156,16 @@ There's also this quip:
 
 [Beyond Surface Statistics: Scene Representations in a Latent Diffusion Model](https://arxiv.org/abs/2306.05720)
 
+[Toy Models of Superposition](https://transformer-circuits.pub/2022/toy_model/index.html)
+
+[Softmax Linear Units](https://transformer-circuits.pub/2022/solu/index.html) - **Anthropic** -
+Making models more interpretable
+
++ Many MLP neurons appear to be polysemantic, responding to multiple unrelated features
+(unlike the [Grandmother cell](https://en.wikipedia.org/wiki/Grandmother_cell)).
+
++ One plausible explanation for polysemanticity is the superposition hypothesis, which suggests that neural network layers have more features than neurons as part of a “sparse coding” strategy to simulate a much larger layer.
+
 # Training
 
 From the GPT-3 paper, [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165):
