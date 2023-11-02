@@ -98,4 +98,6 @@ Things we missed last time:
 
 + Automatic circuit discovery
 
-+ With patching in general, you have to choose your input distribution carefully
++ With patching in general, you have to choose your input distribution carefully.
+
++ Attention heads (?) can refer to other info by value or by pointer.  They showed that, in their IOI example, the second John was being referred to by (relative) pointer.
