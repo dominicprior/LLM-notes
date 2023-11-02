@@ -39,3 +39,22 @@ It doesn't explain what the training is :(
 + Can generate an essay far quicker than a human.
 
 + Can follow the thread of a conversation.
+
+# Adversarial & Visualization
+
+[Transformer Circuits Thread](https://transformer-circuits.pub/)
+
+[Adversarial Examples Are Not Bugs, They Are Features](https://arxiv.org/abs/1905.02175) - **Ilyas** -
+A popular paper, I think
+
+[LLM Lies: Hallucinations are not Bugs, but Features as Adversarial Examples](https://arxiv.org/abs/2310.01469)
+
+## Distill
+
+[A Discussion of Adversarial Examples Are Not Bugs, They Are Features](https://distill.pub/2019/advex-bugs-discussion/)
+
+[Visualizing Weights](https://distill.pub/2020/circuits/visualizing-weights/)
+
+[Zoom In: An Introduction to Circuits](https://distill.pub/2020/circuits/zoom-in/)
+
+[Exploring Neural Networks with Activation Atlases](https://distill.pub/2019/activation-atlas/)
