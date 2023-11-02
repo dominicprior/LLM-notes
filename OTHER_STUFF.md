@@ -58,3 +58,44 @@ A popular paper, I think
 [Zoom In: An Introduction to Circuits](https://distill.pub/2020/circuits/zoom-in/)
 
 [Exploring Neural Networks with Activation Atlases](https://distill.pub/2019/activation-atlas/)
+
+# 2023-11-07 meeting
+
+## The GPT architecture
+
+Things we missed last time:
+
++ Positional encoding
+
++ The projection FF layer
+
++ Layer Norm
+
++ Residuals and residual streams
+
++ Multi head
+
++ The 12,288 giving space for calculations
+
+## Generating text
+
++ sampling, beam search, top-k, top-p
+
+## Interpreting GPT
+
++ The nodes are the variables and the weights are the program.
+
++ IOI
+
++ Superposition
+
++ Causal interventions on the internals of a model.
+
++ Activation patching - run the model twice; replace a node's activation in one run with the activation from the other run.
++ It measures counter-factuals.  What would 
+
++ Path patching
+
++ Automatic circuit discovery
+
++ With patching in general, you have to choose your input distribution carefully
