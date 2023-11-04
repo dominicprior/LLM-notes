@@ -82,6 +82,8 @@ avoiding GPU bandwidth limits by favouring things like matrix multiply where the
 
 [The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 
+[RedPajama-Data-v2: an Open Dataset with 30 Trillion Tokens](https://together.ai/blog/redpajama-data-v2)
+
 # Text generation
 
 [How to generate text](https://huggingface.co/blog/how-to-generate) - Greedy search, Beam search, Top-K Sampling, Top-p sampling
