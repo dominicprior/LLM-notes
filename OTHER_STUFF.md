@@ -130,4 +130,13 @@ by additive updates, forming a residual stream. Thus, the token representation
 LMs incrementally
 update the token representation x to build and refine an encoding of the vocabulary distribution
 
+Finally, the model enters Saturation, where the model recognizes it has solved
+the next token, and ceases updating the token representation for the remaining layers
+
+Saturation events are described in Geva et al. (2022a) where detection of such events is used to “early-exit”
+out of the forward pass
+
+Our findings invite
+future work aimed at understanding why, and under what conditions, LMs learn to use this mechanism
+when they are capable of solving such tasks using, e.g., adhoc memorization
 
