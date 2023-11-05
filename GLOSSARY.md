@@ -13,3 +13,6 @@ negative log probability (which also matches the typical LLM loss function).
 
 2. an output value of an activation function, i.e. the value of a neuron.
 
+**In-context learning**
+[🔗](https://www.hopsworks.ai/dictionary/in-context-learning-icl#:~:text=In%2Dcontext%20learning%20(ICL),the%20need%20for%20fine%2Dtuning.)
+1. a specific method of prompt engineering where demonstrations of the task are provided to the model as part of the prompt
