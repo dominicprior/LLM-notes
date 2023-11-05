@@ -75,6 +75,12 @@ and then, intriguingly:
 > the gap between zero-, one-, and few-shot performance often grows with model capacity,
 > perhaps suggesting that larger models are more proficient meta-learners
 
+For completeness, here are the
+[GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)
+small, medium, large and XL model sizes.
+
+![Screenshot of a table of GPT-2 model sizes.](gpt2_sizes.png)
+
 [Memory bandwidth constraints imply economies of scale in AI inference](https://www.lesswrong.com/posts/cB2Rtnp7DBTpDy3ii/memory-bandwidth-constraints-imply-economies-of-scale-in-ai) -
 avoiding GPU bandwidth limits by favouring things like matrix multiply where the computation is O(N<sup>3</sup>) and the memory is O(N<sup>2</sup>), possibly with tiling to make sure things fit in the cache.
 
