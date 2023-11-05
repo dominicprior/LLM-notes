@@ -297,6 +297,8 @@ Karpathy's 12 hour video series that builds towards [this implementation](https:
 
 [A Comprehensive Overview of Large Language Models](https://arxiv.org/abs/2307.06435)
 
+[The Bloom base model](https://huggingface.co/bigscience/bloom)
+
 # The impacts of AI
 
 [AI and the automation of work](https://www.ben-evans.com/benedictevans/2023/7/2/working-with-ai)
