@@ -101,3 +101,33 @@ Things we missed last time:
 + With patching in general, you have to choose your input distribution carefully.
 
 + Attention heads (?) can refer to other info by value or by pointer.  They showed that, in their IOI example, the second John was being referred to by (relative) pointer.
+
+## A mechanism for solving relational tasks in transformer language models
+
+in an in-context learning setting
+
+reverse-engineering the data structures and
+algorithms that are implicitly encoded in the model’s weights
+
+LLMs implement a basic
+vector-addition mechanism which plays an important role in a number of in-context-learning tasks
+
+a distinct processing signature in the forward pass which characterizes
+this mechanism
+
+if models need to perform the get capital(x) function, which
+takes an argument x and yields an answer y, they first surface the argument x in earlier
+layers which enables them to apply the function and yield y as the final output
+
+the vector arithmetic mechanism
+is often implemented by mid-to-late layer feedforward networks (FFNs) in a way that is
+**modular and supports intervention**
+
+From start to end, *x* is only updated
+by additive updates, forming a residual stream. Thus, the token representation
+*x<sub>i</sub>* represents all of the additions made into the residual stream up to layer *i*
+
+LMs incrementally
+update the token representation x to build and refine an encoding of the vocabulary distribution
+
+
