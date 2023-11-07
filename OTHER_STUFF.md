@@ -30,6 +30,10 @@ instructions, the LM will learn to follow instructions and do so even for unseen
 
 It doesn't explain what the training is :(
 
+![YouTube logo](yt.png)
+[Shane Legg](https://www.youtube.com/watch?v=Kc1atfJkiJU) -
+LLMs (even after fine tuning) just blurt out the first thing (like system 1).  They need to have a system 2, together with a good model of the world and people and ethics, as well as robust and reliable reasoning.  Then they can do search.
+
 # Strengths
 
 + Huge general knowledge.
