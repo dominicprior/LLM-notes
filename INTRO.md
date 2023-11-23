@@ -218,7 +218,8 @@ to get it to usefully go in particular directions." -
 
 [Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning](https://arxiv.org/abs/2012.13255)
 
-[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
+[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) -
+explanation [here](https://www.anyscale.com/blog/fine-tuning-llms-lora-or-full-parameter-an-in-depth-analysis-with-llama-2).
 
 # Using LLMs
 
