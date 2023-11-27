@@ -330,4 +330,9 @@ Wikipedia:
 [Where We See Shapes, AI Sees Textures](https://www.quantamagazine.org/where-we-see-shapes-ai-sees-textures-20190701/)
 
 ![YouTube logo](yt.png)
-[Hinton: Evolution is a tinkerer ... we probably don't need all those kinds of neurons to get an intelligent system](https://youtu.be/Gg-w_n9NJIE?t=4355)
+[Hinton: Evolution is a tinkerer ... we probably don't need all those kinds of neurons to get an intelligent system]
+(https://youtu.be/Gg-w_n9NJIE?t=4355)
+
+![YouTube logo](yt.png)
+[Hassabis: AI-enabled scientific revolution]
+(https://youtu.be/Gg-w_n9NJIE?t=4423)
