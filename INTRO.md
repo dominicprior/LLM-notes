@@ -328,3 +328,6 @@ Wikipedia:
 [What OpenAI Really Wants](https://www.wired.com/story/what-openai-really-wants/) - A fun history of OpenAI.
 
 [Where We See Shapes, AI Sees Textures](https://www.quantamagazine.org/where-we-see-shapes-ai-sees-textures-20190701/)
+
+![YouTube logo](yt.png)
+[Hinton: Evolution is a tinkerer ... we probably don't need all those kinds of neurons to get an intelligent system](https://youtu.be/Gg-w_n9NJIE?t=4355)
