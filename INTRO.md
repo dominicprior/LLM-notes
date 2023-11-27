@@ -326,3 +326,5 @@ Wikipedia:
 [The Pile](https://en.wikipedia.org/wiki/The_Pile_(dataset)),
 
 [What OpenAI Really Wants](https://www.wired.com/story/what-openai-really-wants/) - A fun history of OpenAI.
+
+[Where We See Shapes, AI Sees Textures](https://www.quantamagazine.org/where-we-see-shapes-ai-sees-textures-20190701/)
