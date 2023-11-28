@@ -2,8 +2,8 @@ In a heliocentric coordinate system, let the star have position, λ**s**, where 
 
 Project λ**s** onto the ecliptic at **q**.
 
-Let **u** be the position of the Earth when it is in the direction of **q** and
-let **v** be the position of the Earth 90° is further round the sun, i.e. when **u**.**v** is zero.
+Let **u** be the position of the Earth when it is in the direction of **q**, and
+let **v** be the position when the Earth 90° is further round the sun, i.e. when **u**.**v** is zero.
 
 Then, assuming a circular orbit, the Earth position is **e** = **u**cosθ + **v**sinθ
 
