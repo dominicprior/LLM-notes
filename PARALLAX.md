@@ -1,4 +1,4 @@
-In a heliocentric coordinate system, let the star have position, λ**s**, where **s** is a unit vector.
+In a heliocentric coordinate system, let a star have position, λ**s**, where **s** is a unit vector.
 
 Project λ**s** onto the ecliptic at **q**.
 
