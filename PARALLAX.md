@@ -21,6 +21,6 @@ Collecting terms and noting **v**.**s** is zero:
 
 Let **u** - (**u**.**s**)**s** be **w**, so that **h** = **w**cosθ + **v**sinθ
 
-**w** is perpendicular to **v** and is also shorter than **v**.
+**w** is perpendicular to **s** and **v**, and is also shorter than **v**.
 
-So from the point of view of the star, the Earth moves in an ellipse with major-axis **v**.
+So, from the point of view of the star, the Earth moves in an ellipse with major-axis **v**.
