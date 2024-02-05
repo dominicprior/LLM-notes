@@ -144,3 +144,10 @@ Our findings invite
 future work aimed at understanding why, and under what conditions, LMs learn to use this mechanism
 when they are capable of solving such tasks using, e.g., adhoc memorization
 
+# IOI links
+
+[A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html)
+
+[In-context Learning and Induction Heads](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html)
+
+[LLM Visualization](https://bbycroft.net/llm)
